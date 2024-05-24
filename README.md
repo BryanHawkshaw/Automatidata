@@ -27,7 +27,7 @@ A random forest model comprising 300 decision trees was used to determine featur
 
 
 
-Bar chart showing feature importance of random forest (model.https://github.com/BryanHawkshaw/Automatidata/blob/main/featureimportance.png)
+Bar chart showing feature importance of random forest (https://github.com/BryanHawkshaw/Automatidata/blob/main/featureimportance.png)
 
 
 Conclusion
