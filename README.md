@@ -16,21 +16,17 @@ The data consisted of approximately 408k unique trips and 18 features. The featu
 
 Graph shows the count of Non-Generous and Generous Tippers.(https://github.com/BryanHawkshaw/Automatidata/blob/main/generoustippersrfhist.png?raw=true)
 
-
-
-
-
 In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
 
 Modeling and Evaluation 
+
 A random forest model comprising 300 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that vendor_id2 (id of a particular taxi driver), predicted fare, and the mean_duration were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 69% accuracy and 68% precision. 
-
-
 
 Bar chart showing feature importance of random forest (https://github.com/BryanHawkshaw/Automatidata/blob/main/featureimportance.png)
 
 
 Conclusion
+
 This model can benefit Taxi Drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider’s past tipping behavior may also be beneficial in helping the stakeholder address their business problem. 
 
 
